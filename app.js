@@ -25,6 +25,7 @@ listplus = document.getElementById('list');
 listplus.innerHTML += list;
 number = document.getElementById('list').childElementCount
 numList()
+document.getElementById('write-new').value = '';
 }
 
 function edit(e){

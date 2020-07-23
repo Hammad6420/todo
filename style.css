@@ -56,11 +56,12 @@ word-spacing: 2px;
 }
 .words{
     width: 300px;
+    overflow-x: scroll;
 }
 .list{
     font-family: 'Caveat', cursive;
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 300px;
     background-color: #fdffcd80;
     margin-top:20px ;
     border-radius: 10px;
