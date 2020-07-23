@@ -1,0 +1,98 @@
+body{
+background-image: url('https://img.freepik.com/free-photo/coffee-list_23-2148475402.jpg?size=626&ext=jpg&ga=GA1.2.1009326252.1595502425');
+    background-size: cover;
+background-repeat: no-repeat;
+margin: 0px;
+height: 100vh;
+padding: 0px;
+}
+
+
+.nav-bar{
+    background-color: rgb(133 174 173 / 60%);
+    height: 80px;
+    padding: 15px;
+}
+.heading{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+h1{
+    font-size: 28px !important;
+}
+.main-container{
+    margin-top:80px ;
+}
+
+.todo-container{
+    text-align: center;
+background-color: rgb(207 197 197 / 68%);
+padding: 30px 0px 30px 0px;
+border-radius: 20px;
+
+}
+
+.btn{
+    border: 1px solid black;
+    margin-top: 10px ;
+}
+.icon{
+font-size: 23px;
+margin-right: 10px;
+}
+
+.inp{
+    outline: none;
+    border: none;
+    background: transparent;
+height: 35px;
+width: 200px;
+font-size: 20px;
+font-family: 'Caveat', cursive;
+padding: 5px;
+border-bottom: 1px solid black;
+margin-right: 15px ;
+word-spacing: 2px;
+}
+.words{
+    width: 300px;
+}
+.list{
+    font-family: 'Caveat', cursive;
+    width: 400px;
+    height: 500px;
+    background-color: #fdffcd80;
+    margin-top:20px ;
+    border-radius: 10px;
+    border: 1px solid rgb(168, 166, 166);
+    overflow-y: scroll;
+}
+
+.list-item{
+    margin-top: 10px;
+font-size: 25px;
+text-align: left;
+display: flex;
+/* justify-content: center; */
+align-items:center ;
+}
+.line{
+    content: '';
+    display: block;
+    width: 360px;
+    height: 2px;
+    background-color: rgb(161, 157, 157);
+    margin-top: 5px;
+}
+.number{
+    width: 35px;
+    height: 25px;
+    /* backgrund-color: black; */
+   font-size: 20px;
+   display: flex;
+   justify-items: center;
+   align-items: center;
+   border-radius: 50%;
+   border: 1px solid black;
+   margin-right: 10px ;
+}
